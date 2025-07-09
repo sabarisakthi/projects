@@ -1,0 +1,68 @@
+<meta name="veiwport" content="width=device-width, initial-scale=1.0">
+<style>
+    .container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .two{
+        background-color: blue;
+        margin: 5px;
+        height: 100px;
+        flex-basis: 100%;
+    }
+    .one{
+        background-color: blue;
+        margin: 5px;
+        height: 100px;
+        flex-basis: 30%;
+    }
+    @media screen and (max-width:1008px) {
+        .one{
+        flex-basis: 50%;
+        }
+    }
+    @media screen and (max-width:641px) {
+        .one{
+        flex-basis: 100%;
+        }
+    }
+    .cap{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .the{
+        background-color: gray;
+        margin: 5px;
+        height: 100px;
+        flex-basis: 100%;
+    }
+    .the{
+        background-color: gray;
+        margin: 5px;
+        height: 100px;
+        flex-basis: 20%;
+    }
+    @media screen and (max-width:1008px) {
+        .the{
+        flex-basis: 40%;
+        }
+    }
+    @media screen and (max-width:641px) {
+        .the{
+        flex-basis: 100%;
+        }
+    }
+</style>
+<div class="container">
+    <div class="two"></div>
+    <div class="one"></div>
+    <div class="one"></div>
+    <div class="one"></div>   
+</div><div class="cap">
+    <div class="the"></div>
+    <div class="the"></div>
+    <div class="the"></div>
+    <div class="the"></div>   
+</div>
