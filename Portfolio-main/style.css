@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #7fc4f2;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #7fc4f2;
+  padding: 20px 60px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #a22fdf;
+}
+
+.chat-btn {
+  background: #a22fdf;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.chat-btn:hover {
+  background: #a22fdf;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 60px 40px 60px;
+  background: #f0f4ff;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text .intro {
+  color: #a22fdf;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.highlight {
+  color: #a22fdf;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+}
+
+.buttons .btn, .buttons .link-btn {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn {
+  background: #a22fdf;
+  color: white;
+}
+
+.btn:hover {
+  background: #ec61ca;
+}
+
+.link-btn {
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.link-btn:hover {
+  border-color: #a22fdf;
+  color: #a22fdf;
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+section {
+  padding: 5px 5px;
+}
+
+section:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 26px;
+  color: #1a1a1a;
+}
+
+ul {
+  list-style: disc inside;
+  padding-left: 10px;
+}
+
+footer {
+  background: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
